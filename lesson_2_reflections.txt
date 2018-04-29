@@ -1,3 +1,36 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
 A: The .git file is generated in the current directory, but no commits are created. All files in the directory are currently untracked by the git log. 
+
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area is an intermediate area that doesn't quite affect anything on it's own. It gives you one last checkpoint before you commit anything to a repository. 
+
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: Using git diff command, you can view review changes before committing them. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes:
+Working Directory vs staging Area vs Repository
+WD: Contains files that are being worked on
+SA: Files must be staged before being committed to the repository
+R: Contains versions of files that have been committed 
