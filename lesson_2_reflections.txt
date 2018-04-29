@@ -13,6 +13,10 @@ Q: How can you use the staging area to make sure you have one commit per logical
 A: Using git diff command, you can view review changes before committing them. 
 
 
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Branches are useful when making alterations to a code base because they maintain the previous commit history and add to it on a separate path. They can be used to easily keep track of new features, such as different difficulties or languages being added. 
+
 
 
 
