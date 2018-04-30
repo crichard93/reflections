@@ -22,6 +22,12 @@ Q: How do the diagrams help you visualize the branch structure?
 A: With diagrams, easily able to see where new branches were created and the latest commits for each branch. 
 
 
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: The master and the non-master branch use the commit at which they split as their reference for merging. Lines added and deleted from the reference split will be present (or not present) in the merged commit. The non-master and master commits are included in the merged commit's log. The timestamps are used to order the commits. 
+It's represent with a split path to show that a merge took place and the branch and master has their own sets of commits that can be reached. 
+
+
 
 
 
