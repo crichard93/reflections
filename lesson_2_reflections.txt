@@ -17,7 +17,9 @@ Q: What are some situations when branches would be helpful in keeping your histo
 
 A: Branches are useful when making alterations to a code base because they maintain the previous commit history and add to it on a separate path. They can be used to easily keep track of new features, such as different difficulties or languages being added. 
 
+Q: How do the diagrams help you visualize the branch structure?
 
+A: With diagrams, easily able to see where new branches were created and the latest commits for each branch. 
 
 
 
@@ -38,3 +40,8 @@ Working Directory vs staging Area vs Repository
 WD: Contains files that are being worked on
 SA: Files must be staged before being committed to the repository
 R: Contains versions of files that have been committed 
+
+Useful commands in git:
+git checkout -b new_branch_name: Creates a new branch and checks it out 
+git checkout commit_name or branch_name: used to checkout branches
+git log --graph --oneline branch_name branch_name ... : gives history of branches in a graphic form with logs on one line for readability
