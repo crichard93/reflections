@@ -21,6 +21,12 @@ certain files/commits from the remote repository on the local one.
 Q: Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
+A: Forks are clones of repositories created by GitHub.  They are used when one does not have access to edit someone else's repository.
+
+Clones are copies of a repository. These are used to locally pull a repository from GitHub, or to copy a repository to another location on a local machine.
+
+Branches are simply a separate path of commits. These are used to test different versions of applications or to work on updates without affecting the master branch. 
+The master branch should always be operational, while using other branches to test out changes without fear of ruining the master branch. 
 
 -------------------------
 
