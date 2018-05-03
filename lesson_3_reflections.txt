@@ -55,4 +55,6 @@ Using emails and cell phones to collaborate would probably make it easier to mak
 Q: When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-A: 
+A: Any time functional changes are made, they should be implemented within a separate branch. This allows whoever, whether a single developer or a team, one more opportunity to review the change before committing it to the production branch. The advantages of mkaing changes in a separate branch ensures that there is always a working version of the project in the repository. 
+
+One downside of comitting changes in a separate branch is the increased time that it takes to review and merge the separate branch of changes into master. This cuts down on efficiency in the short-term in exchange for extra protection of the master branch. Another downside is the that there will be more commits in the GitHub log by always creating separate branches, which makes reviewing the log a bit more cumbersome. 
