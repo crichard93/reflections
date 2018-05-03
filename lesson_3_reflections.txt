@@ -43,7 +43,10 @@ A: Most importantly, you have access to the latest changes to the remote, but yo
 Q: How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-A:
+
+A: It depends on who is collaborating.  If possible, I would use direct communication as much as possible to coordinate collaboration. Failing that, I would use a mixture of emails and texts/calls to collaborate without Git and Github. Emails can be used to send files.  
+
+Using emails and cell phones to collaborate would probably make it easier to make sure we always have the most up-to-date version and always are aware of each other's updates.  Keeping track of changes would be much more difficult. Also, not having the ability to auto-merge would make it more time-consuming to perform the merges manually. Peeling back changes to fix bugs could pose a challenge. Also, testing out new features would be hard because we would have to make a very conscious effort to track those separately to the production version.
 
 
 ---------------------------
