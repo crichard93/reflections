@@ -34,6 +34,8 @@ The master branch should always be operational, while using other branches to te
 Q: What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
+A: Most importantly, you have access to the latest changes to the remote, but you don't have to merge it on the spot. You can work on merging it in your own time if that's the intent.  It also ensures you are aware of any changes other developers have implemented to the code base.
+
 
 -------------------------
 
